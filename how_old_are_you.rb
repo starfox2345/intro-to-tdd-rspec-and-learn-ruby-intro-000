@@ -1,4 +1,4 @@
-touch how_old_are_you.rb 
+touch how_old_are_you.rb
 
 require_relative './current_age_for_birth_year.rb'
 
@@ -7,4 +7,4 @@ birth_year = gets.to_i
 
 users_age = current_age_for_birth_year(birth_year)
 
-puts "You are: " + users_ages.to_s + " years old."
+puts "You are: " + users_age.to_s + " years old."
